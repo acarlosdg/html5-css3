@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+</head>
+<style>
+    h1 { /* h1 <Título 1> por padrão é box-level*/
+
+        /* Abaixo determinamos o tamanho e a cor entre outras propriedades */
+        background-color: lightgray;
+        height: 53px;
+        width: 496px;
+
+        
+        /* 
+        border-width: 3px;
+        border-style: solid;
+        border-color: blue;
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10ox;
+        padding-left: 10px;
+
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        
+        Simplificando os camandos acima "SHORTHANDS":
+        - No padding se não for especificado os lados, assume-se que o valor é igua para todos os lados;
+
+        Margin: auto = Centraliza a caixa em função formulario do navegador;
+        */
+    
+        border: 3px solid blue;
+        padding: 10px;
+        margin: auto;
+        
+    }
+    
+    a { /* a <ancora> Por padrão é inline-level */
+        color: blue;
+        border-width: 3px;
+        border-style: dashed;
+        
+    }
+</style>
+<body>
+    <h1>Exemplo de caixa de box-level</h1>
+    <p>Párágrafos também são exemplos de boxline-level mas os <a href="#">links são exemplos de inline-level</a>. Vamos ver como tudo isso funciona.
+    </p>
+</body>
+</html>
