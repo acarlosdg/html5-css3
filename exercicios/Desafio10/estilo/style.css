@@ -36,6 +36,7 @@ header {
     min-height: 130px;
     text-align: center;
     padding-top: 30px;
+    
 }
 header > h1 {
     color: white;
@@ -102,10 +103,7 @@ main p {
     
     
 }
-main strong {
-    
 
-}
 main a{
     text-decoration: none;
     background-color: var(--cor1);
